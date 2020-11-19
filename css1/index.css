@@ -1,0 +1,35 @@
+blockquote {
+	color: fuchsia;
+}
+
+.list a[href^="https"] {
+	color: red;
+} 
+
+.list > li:last-child a {
+	background-color: green;
+}
+
+ul + p {
+	font-size: 26px ;
+} 
+
+h3:first-child {
+	color: pink;
+}
+
+#greycol {
+	color: gray;
+} 
+
+div p:first-child {
+	color: red;
+} 
+
+div ~ p {
+	color: green;
+} 
+
+.yellow {
+	color: yellow;
+}
